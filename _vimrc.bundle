@@ -1,0 +1,28 @@
+set nocompatible
+"-------------------------------------------------------------------------------
+" プラグイン Plugin
+"-------------------------------------------------------------------------------
+filetype off
+set rtp+=~/dotfiles/vimfiles/vundle.git/
+call vundle#rc()
+
+" 必須
+Bundle 'gmarik/vundle'
+
+" Vundle で管理するプラグインを書いていく
+" フォントサイズを変更
+Bundle 'thinca/vim-fontzoom'
+" 複数ファイルを一括置換
+Bundle 'thinca/vim-qfreplace'
+" zencoding
+Bundle 'mattn/zencoding-vim'
+" table of contents
+Bundle 'tomtom/tlib_vim'
+" table of contents
+Bundle 'tomtom/ttoc_vim'
+
+filetype plugin indent on
+
+" configuration for filetype memo
+:autocmd BufNewFile,BufRead *.memo :set filetype=memo
+:let g:ttoc_rx_memo = '^\k\+\>'
