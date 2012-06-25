@@ -3,7 +3,7 @@ set nocompatible
 " プラグイン Plugin
 "-------------------------------------------------------------------------------
 filetype off
-set rtp+=~/dotfiles/vimfiles/vundle.git/
+set rtp+=~/dotfiles/vimfiles/bundle/vundle/
 call vundle#rc()
 
 " 必須
