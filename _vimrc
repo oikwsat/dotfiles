@@ -2,14 +2,22 @@ source ~/dotfiles/_vimrc.bundle
 
 "-------------------------------------------------------------------------------
 " カラー設定:
-:colorscheme evening              " (GUI使用時)
+":colorscheme evening              " (GUI使用時)
+set background=dark
+:colorscheme solarized
+" フォント設定
+"set guifont=MSゴシック:h10
+
+" 対応する括弧に移動するコマンド「%」を拡張するマクロ
+"source $VIMRUNTIME/macros/matchit.vim
 
 "-------------------------------------------------------------------------------
 " 基本設定 Basics
 "-------------------------------------------------------------------------------
 set nocompatible                                  " vi互換なし
 set textwidth=0                                   " 一行に長い文章を書いていても自動折り返しをしない
-set tabstop=4                                     " タブストップ
+set expandtab                                     " タブをスペースに置き換える
+set tabstop=2                                     " タブストップ
 set shiftwidth=4                                  " シフト量
 set nobackup                                      " バックアップ取らない
 set noswapfile                                    " スワップファイル作らない

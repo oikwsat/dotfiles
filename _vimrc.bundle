@@ -20,6 +20,18 @@ Bundle 'mattn/zencoding-vim'
 Bundle 'tomtom/tlib_vim'
 " table of contents
 Bundle 'tomtom/ttoc_vim'
+" ag
+Bundle 'rking/ag.vim'
+" vim-jsx
+Bundle 'mxw/vim-jsx'
+" Unite
+Bundle 'Shougo/Unite.vim'
+" vimfiler
+Bundle 'Shougo/vimfiler.vim'
+" colors solarized
+Bundle 'altercation/vim-colors-solarized'
+
+Bundle 'pangloss/vim-javascript'
 
 filetype plugin indent on
 
