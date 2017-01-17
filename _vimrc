@@ -1,4 +1,5 @@
 source ~/dotfiles/_vimrc.bundle
+source ~/dotfiles/sc.vim
 
 "-------------------------------------------------------------------------------
 " カラー設定:
@@ -121,6 +122,7 @@ filetype plugin indent on       " ファイルタイプ判定をon
 
 " タブ・空白の設定
 autocmd FileType html setlocal noexpandtab
+autocmd FileType yaon setlocal expandtab
 autocmd FileType php  setlocal expandtab
 autocmd FileType diag setlocal noexpandtab
 autocmd FileType js   setlocal expandtab
