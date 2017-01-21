@@ -1,0 +1,51 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: tap repositories
+      homebrew_tap: tap={{ item }} state=present
+      with_items:
+        - homebrew/binary
+        - caskroom/cask
+
+    - name: install homebrew packages
+      homebrew: name={{ item }} state=latest
+      with_items:
+        - tig
+        - wget
+        - tree
+        - node
+        - pwgen
+
+    - name: install homebrew cask packages
+      homebrew_cask: name={{ item }} state=present
+      with_items:
+        - alfred
+        - avira-antivirus
+        - boostnote
+        - coteditor
+        - cyberduck
+        - dropbox
+        - firefox
+        - ganttproject
+        - github-desktop
+        - google-chrome
+        - google-cloud-sdk
+        - google-japanese-ime
+        - hipchat
+        - iterm2
+        - kindle
+        - macvim
+        - slack
+        - skitch
+        - sourcetree
+        # appstore LICENSE problem
+        #- moom
+        # not exists in cask
+        #- feedly
+        #- kobito
+        #- tomato one
+        #- wunderlist
+        #- yorufukurou
