@@ -3,6 +3,9 @@
   connection: local
   gather_facts: no
 
+  vars:
+    username: s.oikawa
+
   tasks:
     - name: tap repositories
       homebrew_tap: tap={{ item }} state=present
@@ -49,3 +52,10 @@
         #- tomato one
         #- wunderlist
         #- yorufukurou
+        #
+
+    # Bash-it
+    - git:
+        repo: https://github.com/Bash-it/bash-it.git
+        dest: /Users/{{ username }}/.bash_it
+        depth: 1
