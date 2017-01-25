@@ -16,11 +16,12 @@
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest
       with_items:
-        - tig
-        - wget
-        - tree
+        - hh
         - node
         - pwgen
+        - tig
+        - tree
+        - wget
 
     - name: install homebrew cask packages
       homebrew_cask: name={{ item }} state=present
