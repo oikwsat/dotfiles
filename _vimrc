@@ -3,11 +3,6 @@ if !&compatible
   set nocompatible
 endif
 
-" reset augroup
-augroup MyAutoCmd
-  autocmd!
-augroup END
-
 " dein settings {{{
 " dein自体の自動インストール
 let s:cache_home = empty($XDG_CACHE_HOME) ? expand('~/.vim') : $XDG_CACHE_HOME
@@ -50,11 +45,13 @@ set background=dark
 set nocompatible                                  " vi互換なし
 set textwidth=0                                   " 一行に長い文章を書いていても自動折り返しをしない
 set expandtab                                     " タブをスペースに置き換える
-set tabstop=2                                     " タブストップ
-set shiftwidth=4                                  " シフト量
+set tabstop=2                                     " タブを空白に変換
+set softtabstop=2                                 " タブ入力時に空白に変換
+set shiftwidth=2                                  " 自動インデント時の空白
 set nobackup                                      " バックアップ取らない
 set noswapfile                                    " スワップファイル作らない
 set noundofile                                    " undoファイル作成を無効にする
+set autoindent                                    " 自動インデント
 set autoread                                      " 他で書き換えられたら自動で読み直す
 set hidden                                        " 編集中でも他のファイルを開けるようにする
 set backspace=indent,eol,start                    " バックスペースでなんでも消せるように
