@@ -1,11 +1,43 @@
-source ~/dotfiles/_vimrc.bundle
-source ~/dotfiles/sc.vim
+" http://qiita.com/kawaz/items/ee725f6214f91337b42b
+if !&compatible
+  set nocompatible
+endif
+
+" reset augroup
+augroup MyAutoCmd
+  autocmd!
+augroup END
+
+" dein settings {{{
+" dein自体の自動インストール
+let s:cache_home = empty($XDG_CACHE_HOME) ? expand('~/.vim') : $XDG_CACHE_HOME
+let s:dein_dir = s:cache_home . '/dein'
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+if !isdirectory(s:dein_repo_dir)
+  call system('git clone https://github.com/Shougo/dein.vim ' . shellescape(s:dein_repo_dir))
+endif
+let &runtimepath = s:dein_repo_dir .",". &runtimepath
+" プラグイン読み込み＆キャッシュ作成
+let s:toml_file = fnamemodify(expand('<sfile>'), ':h').'/dotfiles/dein.toml'
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir, [$MYVIMRC, s:toml_file])
+  call dein#load_toml(s:toml_file)
+  call dein#end()
+  call dein#save_state()
+endif
+" 不足プラグインの自動インストール
+if has('vim_starting') && dein#check_install()
+  call dein#install()
+endif
+" }}}
+
+syntax enable
 
 "-------------------------------------------------------------------------------
 " カラー設定:
 ":colorscheme evening              " (GUI使用時)
 set background=dark
-:colorscheme solarized
+":colorscheme solarized
 " フォント設定
 "set guifont=MSゴシック:h10
 
@@ -52,7 +84,7 @@ set ttymouse=xterm2
 " ステータスライン StatusLine
 "-------------------------------------------------------------------------------
 set laststatus=2                                  " 常にステータスラインを表示
-set ruler                                         "カーソルが何行目の何列目に置かれているかを表示する
+set ruler                                         " カーソルが何行目の何列目に置かれているかを表示する
 
 "ステータスラインに文字コードと改行文字を表示する
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
@@ -85,8 +117,8 @@ augroup END
 highlight CursorLine ctermbg=black guibg=black
 
 if has('multi_byte_ime') || has('xim')
-    " 日本語入力ON時のカーソルの色を設定
-    highlight CursorIM guibg=Purple guifg=NONE
+  " 日本語入力ON時のカーソルの色を設定
+  highlight CursorIM guibg=Purple guifg=NONE
 endif
 
 " ファイルオープン時にカーソル位置を最後にカーソルがあった位置まで移動
@@ -137,3 +169,9 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 nmap <C-Tab>    gt
 "前のタブに移動
 nmap <C-S-Tab>  gT
+
+source ~/dotfiles/sc.vim
+
+"# configuration for filetype memo
+":autocmd BufNewFile,BufRead *.memo :set filetype=memo
+":let g:ttoc_rx_memo = '^\k\+\>'

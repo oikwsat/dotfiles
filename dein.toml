@@ -1,0 +1,47 @@
+# dein で管理するプラグインを書いていく
+
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# フォントサイズを変更
+[[plugins]]
+repo = 'thinca/vim-fontzoom'
+
+# 複数ファイルを一括置換
+[[plugins]]
+repo = 'thinca/vim-qfreplace'
+
+# zencoding
+[[plugins]]
+repo = 'mattn/emmet-vim'
+
+# table of contents
+[[plugins]]
+repo = 'tomtom/tlib_vim'
+
+# table of contents
+[[plugins]]
+repo = 'tomtom/ttoc_vim'
+
+# ag
+[[plugins]]
+repo = 'rking/ag.vim'
+
+# vim-jsx
+[[plugins]]
+repo = 'mxw/vim-jsx'
+
+# Unite
+[[plugins]]
+repo = 'Shougo/Unite.vim'
+
+# vimfiler
+[[plugins]]
+repo = 'Shougo/vimfiler.vim'
+
+# colors solarized
+[[plugins]]
+repo = 'altercation/vim-colors-solarized'
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
