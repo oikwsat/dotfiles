@@ -62,6 +62,12 @@
         repo: https://github.com/Bash-it/bash-it.git
         dest: /Users/{{ username }}/.bash_it
         depth: 1
+
+    - name: install npm packages
+      npm: name={{ item }} state=latest global=yes
+      with_items:
+        - eslint
+
     # Vim plugin manager
     - name: dein work directory
       file: path=/Users/{{ username }}/.vim/dein/ state=directory
