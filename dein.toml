@@ -45,3 +45,6 @@ repo = 'altercation/vim-colors-solarized'
 
 [[plugins]]
 repo = 'pangloss/vim-javascript'
+
+[[plugins]]
+repo = 'editorconfig/editorconfig-vim'
