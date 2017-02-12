@@ -76,4 +76,4 @@
         url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
         dest: /Users/{{ username }}/.vim/dein/installer.sh
 
-    - command: sh /Users/{{ username }}/.cache/dein/installer.sh /User/{{ username }}/.vim/dein
+    - command: sh /Users/{{ username }}/.vim/dein/installer.sh /User/{{ username }}/.vim/dein
