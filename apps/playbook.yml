@@ -78,3 +78,7 @@
     - name: install dein
       command: sh /Users/{{ username }}/.vim/dein/installer.sh /User/{{ username }}/.vim/dein
 
+    # macOS settings
+    - name: locate on
+      become: yes
+      command: launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
