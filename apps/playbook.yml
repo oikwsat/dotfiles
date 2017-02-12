@@ -43,10 +43,13 @@
         - iterm2
         - java
         - kindle
+        - lastpass
         - macvim
         - slack
         - skitch
         - sourcetree
+        - visual-studio-code
+        - vivaldi
         # appstore LICENSE problem
         #- moom
         # not exists in cask
@@ -55,7 +58,6 @@
         #- tomato one
         #- wunderlist
         #- yorufukurou
-        #
 
     - name: install Bash-it
       git:
