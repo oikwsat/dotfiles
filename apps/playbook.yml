@@ -14,7 +14,7 @@
         - caskroom/cask
 
     - name: install homebrew packages
-      homebrew: name={{ item }} state=latest
+      homebrew: name={{ item }} state=latest update_homebrew=yes upgrade_all=yes
       with_items:
         - hh
         - node
