@@ -21,3 +21,10 @@ macOS環境の設定ファイル群
 + create symbolic links
 + cd apps
 + sh install.sh
+
+## Update
+
+```
+$ brew cask cleanup --outdated
+$ brew cask install --force $(brew cask list)
+```
