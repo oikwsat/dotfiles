@@ -57,8 +57,8 @@
         #- yorufukurou
         #
 
-    # Bash-it
-    - git:
+    - name: install Bash-it
+      git:
         repo: https://github.com/Bash-it/bash-it.git
         dest: /Users/{{ username }}/.bash_it
         depth: 1
@@ -71,9 +71,10 @@
     # Vim plugin manager
     - name: dein work directory
       file: path=/Users/{{ username }}/.vim/dein/ state=directory
-
-    - get_url:
+    - name: download dein installer
+      get_url:
         url: https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh
         dest: /Users/{{ username }}/.vim/dein/installer.sh
+    - name: install dein
+      command: sh /Users/{{ username }}/.vim/dein/installer.sh /User/{{ username }}/.vim/dein
 
-    - command: sh /Users/{{ username }}/.vim/dein/installer.sh /User/{{ username }}/.vim/dein
