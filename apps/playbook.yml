@@ -17,6 +17,7 @@
       homebrew: name={{ item }} state=latest update_homebrew=yes upgrade_all=yes
       with_items:
         - hh
+        - gibo
         - node
         - pwgen
         - tig
