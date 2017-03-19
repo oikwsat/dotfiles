@@ -68,6 +68,8 @@
       npm: name={{ item }} state=latest global=yes
       with_items:
         - eslint
+        - http-server
+        - n
 
     # Vim plugin manager
     - name: dein work directory
