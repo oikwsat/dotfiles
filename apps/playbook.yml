@@ -71,6 +71,10 @@
         - http-server
         - n
 
+    # Install (sphinx) python package.
+    - pip:
+      name: sphinx
+
     # Vim plugin manager
     - name: dein work directory
       file: path=/Users/{{ username }}/.vim/dein/ state=directory
