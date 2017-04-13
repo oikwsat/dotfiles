@@ -150,11 +150,12 @@ autocmd BufWritePre * :%s/\s\+$//ge
 filetype plugin indent on       " ファイルタイプ判定をon
 
 " タブ・空白の設定
-autocmd FileType html setlocal noexpandtab
+autocmd FileType html setlocal expandtab
+autocmd FileType css  setlocal expandtab
+autocmd FileType js   setlocal expandtab
 autocmd FileType yaon setlocal expandtab
 autocmd FileType php  setlocal expandtab
 autocmd FileType diag setlocal noexpandtab
-autocmd FileType js   setlocal expandtab
 
 "-------------------------------------------------------------------------------
 " キーマップ Keymap
