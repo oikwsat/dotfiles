@@ -12,14 +12,17 @@
       with_items:
         - homebrew/binary
         - caskroom/cask
+        - caskroom/fonts
 
     - name: install homebrew packages
-      homebrew: name={{ item }} state=latest update_homebrew=yes upgrade_all=yes
+      homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
       with_items:
-        - hh
+        - fabric
         - gibo
+        - hh
         - node
         - pwgen
+        - the_silver_searcher
         - tig
         - tree
         - wget
