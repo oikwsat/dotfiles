@@ -26,6 +26,7 @@
         - tig
         - tree
         - wget
+        - yarn
 
     - name: install homebrew cask packages
       homebrew_cask: name={{ item }} state=present
@@ -33,13 +34,13 @@
         - alfred
         - avira-antivirus
         - boostnote
+        - clipy
         - coteditor
         - cyberduck
         - docker
         - dropbox
         - firefox
         - ganttproject
-        - github-desktop
         - google-chrome
         # permission problem..
         #- google-cloud-sdk
@@ -53,13 +54,11 @@
         - skitch
         - sourcetree
         - visual-studio-code
-        - vivaldi
         # appstore LICENSE problem
         #- moom
         # not exists in cask
         #- feedly
-        #- kobito
-        #- wunderlist
+        #- todoist
 
     - name: install Bash-it
       git:
@@ -70,6 +69,7 @@
     - name: install npm packages
       npm: name={{ item }} state=latest global=yes
       with_items:
+        - create-react-native-app
         - eslint
         - http-server
         - n
