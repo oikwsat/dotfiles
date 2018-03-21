@@ -17,9 +17,12 @@
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
       with_items:
+        - cocoapods
         - fabric
         - gibo
         - hh
+        - ideviceinstaller
+        - ios-deploy
         - node
         - pwgen
         - the_silver_searcher
