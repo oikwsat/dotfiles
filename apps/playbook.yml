@@ -55,12 +55,14 @@
         - skitch
         - sourcetree
         - visual-studio-code
+        - virtualbox
         # appstore LICENSE problem
         #- moom
         # not exists in cask
         #- feedly
         #- todoist
         #- wunderlist
+        #- google file stream
 
     - name: install Bash-it
       git:
