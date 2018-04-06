@@ -76,11 +76,13 @@
     - name: install npm packages
       npm: name={{ item }} state=latest global=yes
       with_items:
+        - appium
         - create-react-native-app
         - eslint
         - grow
         - http-server
         - n
+        - wd
 
     # Install (sphinx) python package.
     - pip:
