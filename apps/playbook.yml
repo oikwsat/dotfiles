@@ -78,6 +78,7 @@
       with_items:
         - create-react-native-app
         - eslint
+        - grow
         - http-server
         - n
 
