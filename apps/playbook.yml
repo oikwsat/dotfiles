@@ -35,6 +35,8 @@
       homebrew_cask: name={{ item }} state=present
       with_items:
         - alfred
+        - android-studio
+          #- android-sdk
         - avira-antivirus
         - boostnote
         - clipy
