@@ -4,7 +4,7 @@
   gather_facts: no
 
   vars:
-    username: {{ ansible_ssh_user }}
+    username: "{{ ansible_ssh_user }}"
 
   tasks:
     - name: tap repositories
