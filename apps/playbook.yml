@@ -25,6 +25,7 @@
         - ios-deploy
         - node
         - pwgen
+        - swiftlint
         - the_silver_searcher
         - tig
         - tree
@@ -62,6 +63,7 @@
         # appstore LICENSE problem
         #- moom
         # not exists in cask
+        #- carthage
         #- feedly
         #- todoist
         #- wunderlist
