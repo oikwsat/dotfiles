@@ -69,6 +69,7 @@
         #- todoist
         #- wunderlist
         #- google file stream
+        #- Synology Note Station
 
     - name: install Bash-it
       git:
