@@ -79,11 +79,14 @@
       npm: name={{ item }} state=latest global=yes
       with_items:
         - appium
+        - appium-doctor
         - create-react-native-app
         - eslint
         - grow
         - http-server
         - n
+        - node-static
+        - npm-check-updates
         - wd
 
     # Update pip and setuptools
