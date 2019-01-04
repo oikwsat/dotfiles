@@ -79,7 +79,6 @@
         - appium-doctor
         - create-react-native-app
         - eslint
-        - grow
         - http-server
         - n
         - node-static
