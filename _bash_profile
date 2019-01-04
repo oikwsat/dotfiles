@@ -5,7 +5,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # Path to the bash it configuration
-export BASH_IT="/Users/s.oikawa/.bash_it"
+export BASH_IT="/Users/oikwsat/.bash_it"
 
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
