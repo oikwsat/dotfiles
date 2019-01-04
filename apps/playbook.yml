@@ -113,3 +113,11 @@
     - name: locate on
       become: yes
       command: launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+    - name: show hidden files
+      become: yes
+      command: defaults write com.apple.finder AppleShowAllFiles TRUE
+
+    - name: does not create .DS_Store
+      become: yes
+      command: defaults write com.apple.desktopservices DSDontWriteNetworkStores True
