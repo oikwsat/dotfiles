@@ -79,6 +79,7 @@
         - appium-doctor
         - create-react-native-app
         - eslint
+        - gatsby-cli
         - http-server
         - n
         - node-static
