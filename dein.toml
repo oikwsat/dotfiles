@@ -48,3 +48,7 @@ repo = 'pangloss/vim-javascript'
 
 [[plugins]]
 repo = 'editorconfig/editorconfig-vim'
+
+[[plugins]]
+repo = 'wakatime/vim-wakatime'
+
