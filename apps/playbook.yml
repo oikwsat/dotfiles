@@ -99,6 +99,10 @@
     # Install (sphinx) python package.
     - pip:
       name: sphinx
+      name: Flask
+      name: virtualenv
+      name: virtualenvwrapper
+      name: docker-compose
 
     # Vim plugin manager
     - name: dein work directory
