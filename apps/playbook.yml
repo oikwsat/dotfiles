@@ -22,6 +22,7 @@
         - hh
         - ideviceinstaller
         - node
+        - libpq
         - pwgen
         - the_silver_searcher
         - tig
