@@ -44,7 +44,6 @@
         - docker
         - dropbox
         - firefox
-        - ganttproject
         - google-chrome
         - google-drive-file-stream
         # permission problem..
@@ -54,17 +53,14 @@
         - java
         - kindle
         - macvim
-        - pycharm-ce
         - slack
         - skitch
-        - skype
         - sourcetree
         - visual-studio-code
         - virtualbox
         # appstore LICENSE problem
         #- moom
         # not exists in cask
-        #- carthage
         #- feedly
         #- todoist
         #- wunderlist
