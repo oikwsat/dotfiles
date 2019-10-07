@@ -20,6 +20,7 @@
         - circleci
         - fabric
         - gibo
+        - go
         - hh
         - ideviceinstaller
         - node
