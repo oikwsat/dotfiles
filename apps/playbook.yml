@@ -37,6 +37,7 @@
       homebrew_cask: name={{ item }} state=present
       with_items:
         - alfred
+        - altair-graphql-client
         - android-studio
         - avira-antivirus
         - clipy
@@ -54,6 +55,7 @@
         - java
         - kindle
         - macvim
+        - mongodb-compass
         - notion
         - slack
         - skitch
