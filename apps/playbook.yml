@@ -62,7 +62,6 @@
         - sourcetree
         - visual-studio-code
         - virtualbox
-        - zoom
         # appstore LICENSE problem
         #- moom
         # not exists in cask
