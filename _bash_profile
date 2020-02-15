@@ -55,3 +55,4 @@ export SCM_CHECK=true
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
 export PATH="/usr/local/opt/libpq/bin:$PATH"
+export BASH_SILENCE_DEPRECATION_WARNING=1
