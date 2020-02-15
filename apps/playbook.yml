@@ -86,7 +86,9 @@
         - gatsby-cli
         - http-server
         - n
+        - next
         - node-static
+        - now
         - npm-check-updates
         - wd
 
