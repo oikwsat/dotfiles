@@ -24,3 +24,5 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
