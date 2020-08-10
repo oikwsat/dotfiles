@@ -27,6 +27,7 @@
         - libpq
         - pwgen
         - redis
+        - rename
         - the_silver_searcher
         - tig
         - tree
