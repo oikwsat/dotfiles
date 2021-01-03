@@ -3,7 +3,7 @@
 ## update Apps
 ##
 
-bash-it update
+$BASH_IT/bash_it.sh update stable
 
 brew update
 brew upgrade
