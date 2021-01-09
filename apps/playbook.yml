@@ -46,6 +46,7 @@
         - db-browser-for-sqlite
         - docker
         - dropbox
+        - dynalist
         - firefox
         - google-chrome
         - google-drive-file-stream
