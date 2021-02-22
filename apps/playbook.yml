@@ -68,6 +68,7 @@
         - visual-studio-code
         - virtualbox
         - zoomus
+        - 1password
         # appstore LICENSE problem
         #- moom
         # not exists in cask
