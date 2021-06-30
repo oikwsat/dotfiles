@@ -11,8 +11,7 @@
       homebrew_tap: tap={{ item }} state=present
       with_items:
         - homebrew/cask
-        - caskroom/cask
-        - caskroom/fonts
+        - homebrew/cask-fonts
 
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
