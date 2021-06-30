@@ -12,6 +12,7 @@
       with_items:
         - homebrew/cask
         - homebrew/cask-fonts
+        - homebrew/cask-versions
 
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
