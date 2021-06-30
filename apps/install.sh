@@ -10,4 +10,4 @@ which brew > /dev/null && echo "homebrew is installed "|| ruby -e "$(curl -fsSL 
 which ansible > /dev/null && echo "ansible is installed"  || brew install ansible
 
 # setup by ansible
-ansible-playbook --ask-sudo-pass -i hosts playbook.yml
+ansible-playbook --ask-become-pass -i hosts playbook.yml
