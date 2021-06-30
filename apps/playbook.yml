@@ -51,6 +51,7 @@
         - firefox
         - fork
         - google-chrome
+        - google-chrome-canary
         - google-drive-file-stream
         # permission problem..
         #- google-cloud-sdk
