@@ -18,19 +18,23 @@
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
       with_items:
         - circleci
+        - docker
         - fabric
         - gibo
         - go
         - hh
         - ideviceinstaller
         - node
+        - nodenv
         - libpq
         - pwgen
+        - rbenv
         - redis
         - rename
         - the_silver_searcher
         - tig
         - tree
+        - watchman
         - wget
         - yarn
 
@@ -44,7 +48,6 @@
         - cyberduck
         - deepl
         - discord
-        - docker
         - dropbox
         - dynalist
         - firefox
@@ -66,6 +69,7 @@
         - slack
         - skitch
         - sourcetree
+        - tandem
         - visual-studio-code
         - zoomus
         - 1password
