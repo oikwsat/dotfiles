@@ -27,7 +27,6 @@
         - node
         - nodenv
         - libpq
-        - pwgen
         - rbenv
         - redis
         - rename
@@ -42,7 +41,6 @@
       homebrew_cask: name={{ item }} state=present
       with_items:
         - alfred
-        - altair-graphql-client
         - android-studio
         - coteditor
         - cyberduck
@@ -59,7 +57,6 @@
         #- google-cloud-sdk
         - google-japanese-ime
         - iterm2
-        - java
         - kindle
         - krisp
         - macvim
