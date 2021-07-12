@@ -50,6 +50,7 @@
         - dropbox
         - dynalist
         - firefox
+        - flipper
         - fork
         - google-chrome
         - google-chrome-canary
@@ -63,11 +64,13 @@
         - macvim
         - meetingbar
         - mongodb-compass
+        - ngrok
         - notion
         - slack
         - skitch
         - sourcetree
         - tandem
+        - react-native-debugger
         - visual-studio-code
         - zoomus
         - 1password
