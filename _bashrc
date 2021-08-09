@@ -8,6 +8,8 @@ fi
 # for Lanuchpad
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+# for Android
+export ANDROID_SDK=$HOME/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
