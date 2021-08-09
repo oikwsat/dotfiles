@@ -55,6 +55,13 @@ zstyle ':completion:*:default' menu select=1
 # vi ライクな操作を有効にする
 bindkey -v
 
+# ctrl +
+bindkey '^R' history-incremental-search-backward
+bindkey '^A' beginning-of-line
+bindkey '^E' end-of-line
+bindkey '^P' up-line-or-search
+bindkey '^N' down-line-or-search
+
 # aliases
 alias ll='ls -la'
 # auto_cd により .. とだけ入力すれば1つ上のディレクトリに移動できる
