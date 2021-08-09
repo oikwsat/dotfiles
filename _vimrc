@@ -32,7 +32,7 @@ syntax enable
 " カラー設定:
 ":colorscheme evening              " (GUI使用時)
 set background=dark
-":colorscheme solarized
+:colorscheme solarized
 " フォント設定
 "set guifont=MSゴシック:h10
 
