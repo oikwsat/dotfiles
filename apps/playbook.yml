@@ -54,6 +54,7 @@
         - firefox
         - flipper
         - fork
+        - github
         - google-chrome
         - google-chrome-canary
         - google-drive-file-stream
@@ -69,6 +70,7 @@
         - nektos/tap/act
         - ngrok
         - notion
+        - postman
         - slack
         - skitch
         - sourcetree
