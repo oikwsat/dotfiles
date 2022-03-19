@@ -4,7 +4,7 @@
 ##
 
 # install homebrew
-which brew > /dev/null && echo "homebrew is installed "|| ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+which brew > /dev/null && echo "homebrew is installed "|| /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # install ansible
 which ansible > /dev/null && echo "ansible is installed"  || brew install ansible
