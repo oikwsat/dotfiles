@@ -140,11 +140,11 @@
 
     - name: show hidden files
       become: yes
-      command: defaults write com.apple.finder AppleShowAllFiles TRUE
+      command: defaults write com.apple.finder AppleShowAllFiles true
 
     - name: does not create .DS_Store
       become: yes
-      command: defaults write com.apple.desktopservices DSDontWriteNetworkStores True
+      command: defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
     - name: turn off power chime
       become: yes
