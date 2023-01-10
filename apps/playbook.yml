@@ -145,3 +145,7 @@
     - name: does not create .DS_Store
       become: yes
       command: defaults write com.apple.desktopservices DSDontWriteNetworkStores True
+
+    - name: turn off power chime
+      become: yes
+      command: defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
