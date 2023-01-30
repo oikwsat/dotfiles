@@ -17,7 +17,6 @@
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
       with_items:
-        - circleci
         - docker
         - fabric
         - gh
@@ -77,7 +76,6 @@
         - postman
         - slack
         - skitch
-        - toggl-track
         - react-native-debugger
         - visual-studio-code
         - zoomus
