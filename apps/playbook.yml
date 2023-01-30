@@ -22,7 +22,6 @@
         - gh
         - gibo
         - go
-        - grammarly-desktop
         - hh
         - ideviceinstaller
         - node
@@ -64,6 +63,7 @@
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
+        - grammarly-desktop
         - iterm2
         - kindle
         - logseq
