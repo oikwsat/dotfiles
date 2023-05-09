@@ -49,7 +49,6 @@
         - charles
         - coteditor
         - cyberduck
-        - deepl
         - discord
         - dropbox
         - dynalist
@@ -63,7 +62,6 @@
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
-        - grammarly-desktop
         - iterm2
         - kindle
         - logseq
@@ -85,7 +83,6 @@
         #- moom
         # not exists in cask
         #- feedly
-        #- todoist
         #- google file stream
 
     - name: install Bash-it
