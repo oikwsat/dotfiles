@@ -44,6 +44,7 @@
         - adobe-acrobat-reader
         - alfred
         - android-studio
+        - appcleaner
         - asana
         - authy
         - charles
@@ -70,9 +71,11 @@
         - microsoft-edge
         - mongodb-compass
         - nektos/tap/act
+        - netnewswire
         - ngrok
         - notion
         - postman
+        - shottr
         - slack
         - skitch
         - react-native-debugger
