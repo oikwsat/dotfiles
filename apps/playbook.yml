@@ -17,6 +17,7 @@
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
       with_items:
+        - direnv
         - docker
         - fabric
         - gh
