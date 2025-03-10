@@ -29,6 +29,7 @@
         - nodenv
         - libpq
         - lsusb
+        - pict
         - rbenv
         - redis
         - rename
