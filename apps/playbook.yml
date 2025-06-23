@@ -64,7 +64,7 @@
         - github
         - google-chrome
         - google-chrome-canary
-        - google-drive-file-stream
+        - google-drive
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
