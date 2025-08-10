@@ -79,7 +79,6 @@
         - mongodb-compass
         - nektos/tap/act
         - ngrok
-        - notion
         - postman
         - shottr
         - slack
