@@ -70,9 +70,9 @@
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
-        - grishka/grishka/neardrop
         - iterm2
         - kindle
+        - localsend
         - macvim
         - meetingbar
         - microsoft-edge
