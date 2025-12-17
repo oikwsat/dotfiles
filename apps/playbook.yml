@@ -12,13 +12,11 @@
       with_items:
         - direnv
         - docker
-        - fabric
         - gh
         - gibo
         - git-lfs
         - go
         - hh
-        - ideviceinstaller
         - node
         - nodenv
         - libpq
@@ -50,7 +48,6 @@
         - claude
         - coteditor
         - cursor
-        - deepl
         - discord
         - docker
         - dropbox
@@ -67,7 +64,6 @@
         - iterm2
         - kindle
         - localsend
-        - logi-options-plus
         - macvim
         - meetingbar
         - microsoft-edge
