@@ -34,6 +34,6 @@ macOS 環境の設定ファイル群
 ## Update
 
 ```
-$ brew cask cleanup --outdated
-$ brew cask install --force $(brew cask list)
+$ brew cleanup
+$ brew install --force $(brew list)
 ```
