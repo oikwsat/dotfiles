@@ -1,0 +1,22 @@
+# Ghostty config file
+# $HOME/.config/ghostty/config
+
+# theme
+# ghostty +list-themes
+theme = Nvim Dark
+
+# font
+font-family = SF Mono Square
+font-feature = -dlig
+font-thicken = true
+
+# cursor
+cursor-style = block
+cursor-style-blink = false
+
+# window
+window-save-state = always
+
+# macOS
+macos-titlebar-style = tabs
+macos-option-as-alt = true
