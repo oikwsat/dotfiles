@@ -93,9 +93,7 @@
     - name: install npm packages
       npm: name={{ item }} state=latest global=yes
       with_items:
-        - aws-amplify/cli
         - eslint
-        - gatsby-cli
         - http-server
         - n
         - next
