@@ -90,12 +90,6 @@
         #- feedly
         #- google file stream
 
-    - name: install Bash-it
-      git:
-        repo: https://github.com/Bash-it/bash-it.git
-        dest: /Users/{{ username }}/.bash_it
-        depth: 1
-
     - name: install npm packages
       npm: name={{ item }} state=latest global=yes
       with_items:
