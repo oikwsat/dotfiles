@@ -50,6 +50,8 @@
         - chatwork
         - claude
         - claude-code
+        - codex
+        - codex-app
         - coteditor
         - cursor
         - discord
