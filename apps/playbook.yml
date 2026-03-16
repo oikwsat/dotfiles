@@ -59,6 +59,7 @@
         - dropbox
         - firefox
         - fork
+        - gcloud-cli
         - gemini-cli
         - ghostty
         - github

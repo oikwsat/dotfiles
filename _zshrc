@@ -78,3 +78,5 @@ export PATH="/opt/homebrew/bin:$PATH"
 
 # Added by Antigravity
 export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+
+export PATH=/opt/homebrew/share/google-cloud-sdk/bin:"$PATH"
