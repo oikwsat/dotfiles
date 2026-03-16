@@ -38,7 +38,6 @@
       homebrew_cask: name={{ item }} state=present
       with_items:
         - adobe-acrobat-reader
-        - aerospace
         - alfred
         - android-studio
         - antigravity
