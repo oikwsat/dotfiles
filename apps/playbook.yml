@@ -68,7 +68,6 @@
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
-        - iterm2
         - kindle
         - localsend
         - macvim
