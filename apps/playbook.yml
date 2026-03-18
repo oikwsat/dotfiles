@@ -26,6 +26,7 @@
         - rbenv
         - redis
         - rename
+        - sqlite
         - the_silver_searcher
         - tig
         - tree
