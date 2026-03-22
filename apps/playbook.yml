@@ -7,6 +7,9 @@
     username: "{{ ansible_ssh_user }}"
 
   tasks:
+    - name: tap FelixKratz/formulae
+      homebrew_tap: name=FelixKratz/formulae state=present
+
     - name: install homebrew packages
       homebrew: name={{ item }} state=latest update_homebrew=no upgrade_all=no
       with_items:
@@ -45,6 +48,7 @@
         - appcleaner
         - asana
         - authy
+        - borders
         - charles
         - chatgpt
         - chatwork
