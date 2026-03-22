@@ -15,6 +15,7 @@
       with_items:
         - direnv
         - docker
+        - ffmpeg
         - gh
         - gibo
         - git-lfs
@@ -36,6 +37,7 @@
         - uv
         - watchman
         - wget
+        - whisper-cpp
         - yarn
 
     - name: install homebrew cask packages
