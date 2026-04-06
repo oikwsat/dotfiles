@@ -55,7 +55,7 @@
         - chatgpt
         - chatwork
         - claude
-        - claude-code
+        - claude-code@latest
         - codex
         - codex-app
         - coteditor
@@ -75,6 +75,7 @@
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
+        - jordanbaird-ice
         - kindle
         - localsend
         - macvim
