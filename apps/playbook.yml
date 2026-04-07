@@ -83,6 +83,7 @@
         - microsoft-edge
         - mongodb-compass
         - nektos/tap/act
+        #- obsbot-center
         - postman
         - rectangle
         - shottr
