@@ -75,7 +75,6 @@
         # permission problem..
         #- google-cloud-sdk
         - google-japanese-ime
-        - jordanbaird-ice
         - kindle
         - localsend
         - macvim
@@ -89,6 +88,7 @@
         - shottr
         - slack
         - skitch
+        - thaw
         - visual-studio-code
         - zoomus
         - 1password
