@@ -6,9 +6,7 @@
 theme = Nvim Dark
 
 # font
-font-family = "Hack Nerd Font Mono"
-font-family = "Hiragino Kaku Gothic ProN"
-font-size = 14
+font-family = SF Mono Square
 font-feature = -dlig
 font-thicken = true
 
@@ -18,7 +16,6 @@ cursor-style-blink = false
 
 # window
 window-save-state = always
-window-inherit-working-directory = true
 
 # macOS
 macos-titlebar-style = tabs

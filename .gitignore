@@ -1,1 +1,41 @@
+.DS_Store
 *.retry
+node_modules/
+.expo/
+
+# このリポジトリ自体の Claude Code 状態（claude/ stow パッケージとは別物）
+/.claude/
+
+# claude/ パッケージ: 動的データはホームには張らない／コミットしない
+claude/.claude/settings.local.json
+claude/.claude/history.jsonl
+claude/.claude/sessions/
+claude/.claude/projects/
+claude/.claude/todos/
+claude/.claude/cache/
+claude/.claude/backups/
+claude/.claude/file-history/
+claude/.claude/shell-snapshots/
+claude/.claude/session-env/
+claude/.claude/telemetry/
+claude/.claude/statsig/
+claude/.claude/paste-cache/
+claude/.claude/plugins/
+claude/.claude/scripts/
+claude/.claude/stats-cache.json
+claude/.claude/.last-cleanup
+claude/.claude/debug/
+claude/.claude/plans/
+
+# gemini/ パッケージ: secret / 動的データ
+gemini/.gemini/oauth_creds.json
+gemini/.gemini/google_accounts.json
+gemini/.gemini/installation_id
+gemini/.gemini/state.json
+gemini/.gemini/trustedFolders.json
+gemini/.gemini/tmp/
+gemini/.gemini/node_modules/
+gemini/.gemini/yarn.lock
+gemini/.gemini/antigravity/
+gemini/.gemini/antigravity-browser-profile/
+gemini/.gemini/settings.json.orig
