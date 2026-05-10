@@ -63,6 +63,7 @@ fi
 REAL_FILES=(
   ".zprofile"
   ".gitconfig"
+  ".config/git/ignore"
   ".config/ghostty/config"
   ".claude/settings.json"
   ".gemini/settings.json"
