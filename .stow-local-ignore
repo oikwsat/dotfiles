@@ -1,6 +1,5 @@
 README\.md
 bootstrap\.sh
-once_update\.sh
 \.gitignore
 \.stow-local-ignore
 ansible
