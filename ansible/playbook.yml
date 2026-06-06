@@ -34,6 +34,7 @@
         - stow
         - the_silver_searcher
         - tig
+        - tmux
         - tree
         - uv
         - watchman
