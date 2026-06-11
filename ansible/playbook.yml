@@ -57,6 +57,7 @@
         - chatwork
         - claude
         - claude-code@latest
+        - cmux
         - codex
         - codex-app
         - coteditor
