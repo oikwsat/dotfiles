@@ -142,13 +142,13 @@
       command: launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
     - name: show hidden files
-      become: yes
       command: defaults write com.apple.finder AppleShowAllFiles true
 
     - name: does not create .DS_Store
-      become: yes
       command: defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
     - name: turn off power chime
-      become: yes
       command: defaults write com.apple.PowerChime ChimeOnNoHardware -bool true
+
+    - name: disable default browser prompt for chrome canary
+      command: defaults write com.google.Chrome.canary DefaultBrowserSettingEnabled -bool false
