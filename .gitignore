@@ -39,3 +39,6 @@ gemini/.gemini/yarn.lock
 gemini/.gemini/antigravity/
 gemini/.gemini/antigravity-browser-profile/
 gemini/.gemini/settings.json.orig
+
+# vim/ パッケージ: dein 配下は playbook の installer.sh が自動生成する
+vim/.vim/dein/
